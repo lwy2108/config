@@ -20,7 +20,7 @@ sudo apt update &&
 sudo apt install nvidia-driver-libs:i386 -y &&
 sudo apt install nvidia-cuda-dev nvidia-cuda-toolkit -y &&
 # ? sudo apt install mesa-vulkan-drivers libglx-mesa0:i386 mesa-vulkan-drivers:i386 libgl1-mesa-dri:i386 &&
-sudo apt install vim keepassxc python3-pip python3-venv portaudio19-dev git nodejs npm ffmpeg telegram-desktop qemu-system libvirt-daemon-system virt-manager feh transmission torbrowser-launcher flatpak steam-installer unzip logiops pavucontrol man -y &&
+sudo apt install vim keepassxc python3-pip python3-venv portaudio19-dev git nodejs npm ffmpeg telegram-desktop qemu-system libvirt-daemon-system virt-manager feh transmission torbrowser-launcher flatpak steam-installer unzip pavucontrol man -y &&
 flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo &&
 flatpak install flathub md.obsidian.Obsidian -y &&
 flatpak install flathub com.vscodium.codium -y &&
